@@ -9,4 +9,8 @@ class Store {
   read() {
     return readFileAsync("db/db.json", "utf-8");
   }
+
+  write() {
+    return writeFileAsync("db/db.json", "utf-8");
+  }
 }
