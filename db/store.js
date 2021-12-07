@@ -13,4 +13,16 @@ class Store {
   write() {
     return writeFileAsync("db/db.json", "utf-8");
   }
+
+  getnotes() {
+    return this.read().then((notes) => {
+      let thesenotes;
+      try {
+        thesenotes = [].concat(JSON.parse(notes));
+      } catch (error) {
+        thesenotes = [];
+      }
+      return thesenotes;
+    });
+  }
 }
