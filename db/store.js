@@ -14,7 +14,7 @@ class Store {
     return writeFileAsync("db/db.json", "utf-8");
   }
 
-  getnotes() {
+  getnotes(note) {
     return this.read().then((notes) => {
       let thesenotes;
       try {
@@ -24,5 +24,22 @@ class Store {
       }
       return thesenotes;
     });
+  }
+  addnotes() {
+    const { title, text } = notes;
+    if (!title || !text) {
+      throw new Error("Title and Text has to be filled in");
+    }
+    const newnote = {
+      title,
+      text,
+      id: uuid(),
+    };
+    return this.getnotes()
+      .then((notes) => [...notes, newnote])
+
+      .then((updatednotes) => this.write(updatednotes))
+
+      .then(() => newnote);
   }
 }
