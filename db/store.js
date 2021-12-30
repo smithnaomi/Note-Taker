@@ -55,6 +55,6 @@ class Store {
 
       .then((updatednotes) => this.write(updatednotes))
 
-      .then(() => newnote);
+      .then(() => deletenote);
   }
 }
