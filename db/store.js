@@ -44,17 +44,9 @@ class Store {
   }
 
   removenotes() {
-    const { title, text } = notes;
-    const deletenote = {
-      title,
-      text,
-      id: uuid(),
-    };
     return this.getnotes()
-      .then((notes) => [...notes, deletenote])
+      .then((notes) => notes.filter((note) => note.id !== id))
 
-      .then((updatednotes) => this.write(updatednotes))
-
-      .then(() => deletenote);
+      .then((filterednotes) => this.write(filterednotes));
   }
 }
