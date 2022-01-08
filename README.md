@@ -28,7 +28,15 @@ install the dependency
 
 ## Contact
 
-[Note Taker repository](https://github.com/smithnaomi/Note-Taker)
+## Questions
+
+For any questions about the project, please contact me by either of the following links:
+
+- Email = smithnaomi49@yahoo.com
+
+or visit my GitHub profile:
+
+- Application GitHub - [smithnaomi](https://github.com/smithnaomi/Note-Taker)
 
 ### License
 
