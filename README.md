@@ -26,8 +26,6 @@ install the dependency
 <!-- screenshot or demo screencastify -->
 <!-- [code refactor screenshot](assets/images/Portfolio1.png) -->
 
-## Contact
-
 ## Questions
 
 For any questions about the project, please contact me by either of the following links:
