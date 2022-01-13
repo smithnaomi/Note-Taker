@@ -7,8 +7,6 @@ _Naomi Smith_
 - [Overview](#Overview)
 - [Build](#Build)
 - [Usage](#Usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 - [License](#license)
 
