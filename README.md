@@ -4,7 +4,7 @@ _Naomi Smith_
 
 ## Overview
 
-<p><p>
+<p>Rather it's a busy schedule or an imaginative mind. <p>
 
 ## Build With
 
