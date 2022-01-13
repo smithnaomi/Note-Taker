@@ -2,17 +2,34 @@
 
 _Naomi Smith_
 
+## Table of Contents
+
+- [Overview](#Overview)
+- [Build](#Build)
+- [Usage](#Usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [License](#license)
+
 ## Overview
 
 <p>Rather it's a busy schedule or an imaginative mind, having an application to write notes is a need. Note Taker will provide the user the ability to write and save all those important events, ideas and many more. User will select the notes page and see their existing notes in the left-hand column of the page. The right-hand column will be an empty field to add a new note; once the note is given a title. An icon will appear to save the note and will be added to the existing notes in the left-hand column. User can add a note by clicking on the wite icon. User can use that blank canvas to get ready for the day or week; keep your mind free and your thoughts written in the Note Taker.  <p>
 
-## Build With
+## Build
 
 - [Node](https://www.codecademy.com/articles/what-is-node)
 - [uuid-key-generator](https://www.npmjs.com/package/uuid-key-generator)
 - [Heroku](https://www.heroku.com/)
 
 ## Usage
+
+<!-- screenshot or demo screencastify -->
+<!-- [code refactor screenshot](assets/images/Portfolio1.png) -->
+
+### Deploy Address Heroku
+
+<!-- [smithnaomi](https://github.com/smithnaomi/Note-Taker) -->
 
 #### How to run your Note Taker locally:
 
@@ -21,9 +38,6 @@ _Naomi Smith_
   install the dependency
 - run node server.js or nodemon server.js in your terminal
 - open browser and paste the following url http://localhost:3001
-
-<!-- screenshot or demo screencastify -->
-<!-- [code refactor screenshot](assets/images/Portfolio1.png) -->
 
 ## Questions
 
