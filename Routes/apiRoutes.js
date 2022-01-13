@@ -12,7 +12,7 @@ router.get("/notes", (req, res) => {
 
 router.post("/notes", (req, res) => {
   store
-    .addnotes(req.body)
+    .addnote(req.body)
     .then((notes) => {
       return res.json(notes);
     })
@@ -20,11 +20,12 @@ router.post("/notes", (req, res) => {
 });
 
 router.delete("/notes/:id", (req, res) => {
-  removenotes(req.params.id)
+  store
+    .removenotes(req.params.id)
     .then(() => {
       return res.json({ ok: true });
     })
     .catch((err) => res.status(500).json(err));
 });
 
-module.export = router;
+module.exports = router;

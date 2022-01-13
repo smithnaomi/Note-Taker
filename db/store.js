@@ -14,9 +14,10 @@ class Store {
     return writeFileAsync("db/db.json", "utf-8");
   }
 
-  getnotes(note) {
+  getnotes() {
     return this.read().then((notes) => {
       let thesenotes;
+
       try {
         thesenotes = [].concat(JSON.parse(notes));
       } catch (error) {
@@ -25,28 +26,28 @@ class Store {
       return thesenotes;
     });
   }
-  addnotes() {
+
+  addnote() {
     const { title, text } = notes;
     if (!title || !text) {
       throw new Error("Title and Text has to be filled in");
     }
+
     const newnote = {
       title,
       text,
       id: uuid(),
     };
+
     return this.getnotes()
       .then((notes) => [...notes, newnote])
-
       .then((updatednotes) => this.write(updatednotes))
-
       .then(() => newnote);
   }
 
-  removenotes() {
+  removenotes(id) {
     return this.getnotes()
       .then((notes) => notes.filter((note) => note.id !== id))
-
       .then((filterednotes) => this.write(filterednotes));
   }
 }
