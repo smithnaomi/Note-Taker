@@ -4,7 +4,7 @@ _Naomi Smith_
 
 ## Overview
 
-<p>Rather it's a busy schedule or an imaginative mind. <p>
+<p>Rather it's a busy schedule or an imaginative mind, having an application to write notes is a need. Note Taker will provide the user the ability to write and save all those important events, ideas and many more. User will select the notes page and see their existing notes in the left-hand column of the page. The right-hand column will be an empty field to add a new note; once the note is given a title. An icon will appear to save the note and will be added to the existing notes in the left-hand column. User can add a note by clicking on the wite icon. User can use that blank canvas to get ready for the day or week; keep your mind free and your thoughts written in the Note Taker.  <p>
 
 ## Build With
 
