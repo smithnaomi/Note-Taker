@@ -1,6 +1,6 @@
 const util = require("util");
 const fs = require("fs");
-const uuid = require("uuid/v1");
+const { uuid: uuidv4 } = require("uuid");
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
 class Store {
