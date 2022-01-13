@@ -9,19 +9,18 @@ _Naomi Smith_
 ## Build With
 
 - [Node](https://www.codecademy.com/articles/what-is-node)
-- [uuid-key-generator](https://www.heroku.com/)
-- [Heroku](https://www.codecademy.com/articles/what-is-node)
+- [uuid-key-generator](https://www.npmjs.com/package/uuid-key-generator)
+- [Heroku](https://www.heroku.com/)
 
 ## Usage
 
 #### How to run your Note Taker locally:
 
-<!-- >
 - Download the Repo as ZIP file or clone it locally
 - Open the repo folder to your favorite code editor
-install the dependency
+  install the dependency
 - run node server.js or nodemon server.js in your terminal
-- open browser and paste the following url http://localhost:3001 -->
+- open browser and paste the following url http://localhost:3001
 
 <!-- screenshot or demo screencastify -->
 <!-- [code refactor screenshot](assets/images/Portfolio1.png) -->
