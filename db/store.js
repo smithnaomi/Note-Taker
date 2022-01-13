@@ -27,8 +27,8 @@ class Store {
     });
   }
 
-  addnote() {
-    const { title, text } = notes;
+  addnote(note) {
+    const { title, text } = note;
     if (!title || !text) {
       throw new Error("Title and Text has to be filled in");
     }
