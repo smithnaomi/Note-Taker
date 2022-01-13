@@ -21,7 +21,7 @@ router.post("/notes", (req, res) => {
 
 router.delete("/notes/:id", (req, res) => {
   store
-    .removenotes(req.params.id)
+    .removenote(req.params.id)
     .then(() => {
       return res.json({ ok: true });
     })
