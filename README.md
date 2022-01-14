@@ -26,7 +26,7 @@ _Naomi Smith_
 
 ### Deploy Address Heroku
 
-[Webpage](https://ns49-note-taker.herokuapp.com/notes)
+[Webpage](https://ns49-note-taker.herokuapp.com/)
 
 #### How to run your Note Taker locally:
 
