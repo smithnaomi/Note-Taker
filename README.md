@@ -22,12 +22,11 @@ _Naomi Smith_
 
 ## Usage
 
-<!-- screenshot or demo screencastify -->
-<!-- [code refactor screenshot](assets/images/Portfolio1.png) -->
+![Note Taker demo](assets/images/NoteTaker.gif)
 
 ### Deploy Address Heroku
 
-<!-- [smithnaomi](https://github.com/smithnaomi/Note-Taker) -->
+[Webpage](https://ns49-note-taker.herokuapp.com/notes)
 
 #### How to run your Note Taker locally:
 
