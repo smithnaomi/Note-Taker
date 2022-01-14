@@ -22,7 +22,7 @@ _Naomi Smith_
 
 ## Usage
 
-![Note Taker demo](assets/images/NoteTaker.gif)
+![Note Taker demo](public/assets/images/NoteTaker.gif)
 
 ### Deploy Address Heroku
 
